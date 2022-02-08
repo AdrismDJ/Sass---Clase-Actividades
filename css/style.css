@@ -1,0 +1,29 @@
+body {
+  background-color: #eee8d6;
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: "Helvetica", sans-serif;
+  color: #022933;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  color: #c64441ff;
+  font-family: "Roboto", sans-serif;
+}
+
+body p,
+body button,
+body a {
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

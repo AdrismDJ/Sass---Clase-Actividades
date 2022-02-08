@@ -1,0 +1,33 @@
+$color-background: #eee8d6;
+$color-header: #c64441ff;
+$font-header: "Roboto", sans-serif;
+$size-text: 1.5rem;
+
+body {
+  background-color: #eee8d6;
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: "Helvetica", sans-serif;
+  color: #022933;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $color-header;
+    font-family: $font-header;
+  }
+
+  p,
+  button,
+  a {
+    font-size: $size-text;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
