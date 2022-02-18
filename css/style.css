@@ -1,20 +1,52 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif);
-html {
-  font-size: 62.5%;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap");
 body {
   margin: 0;
   padding: 0;
-  font-size: 1.8rem;
-  font-family: "Merriweather", Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   color: #022933;
   background-color: #eee8d6;
+  width: 45%;
+  margin: 0 auto;
+  font-weight: 500;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
+h1 {
+  margin: 20px 0;
+  font-size: 2.2rem;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ol li {
+  display: inline-block;
+  border-top: 2px red dotted;
+  padding: 10px 0;
+}
+
+ol li a {
+  text-decoration: none;
+}
+
+ol li a p {
+  margin: 0;
+  padding: 0;
+  color: #022933;
+  font-size: 0.85rem;
+}
+
+ol li a img {
+  margin-right: 10px;
+  float: left;
+}
+
+ol li a h2 {
+  margin: 0;
+  padding: 0;
+  color: #0076a3;
+  font-size: 1.1rem;
 }
 
 h1,
@@ -23,7 +55,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bree Serif", Helvetica, sans-serif;
   color: #d14348;
 }
 /*# sourceMappingURL=style.css.map */
